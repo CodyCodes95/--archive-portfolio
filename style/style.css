@@ -19,9 +19,11 @@ body {
   background: #deeaee;
   color: #c94c4c;
   min-height: 100vh;
+  overflow-x: hidden;
+  
 }
 
-main {
+main  {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -29,6 +31,24 @@ main {
   position: relative;
   margin-top: auto;
 }
+
+#hero {
+  position: absolute;
+  width: 100vw;
+  top: 0%;
+  /* background: url(/img/hero.jpg) center; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  padding: 4rem;
+}
+
+
+/* #about{
+  margin-top: 2em
+} */
 
 .button {
   color: var(--another-color);
@@ -93,9 +113,89 @@ nav a:hover {
   color: var(--background-color);
 }
 
+/* @media only screen and (max-width: 400px) {
+  body{
+    background: url(/img/iphone-background.jpg) center;
+  }
+} */
+
+@media only screen and (min-width:801px) {
+    #nav{
+      position: absolute;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      Top:1em;
+      right:1em;
+      background: #b1cbbb;
+      
+ }
+    #nav a {
+        color: #c94c4c;
+        font-size: 1em;
+    }
+
+    .menu-toggle{
+      position: absolute;
+      top: -20px
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 800px){
+    .navigation {
+    position: fixed;
+    z-index: 1000;
+    inset: 0 0 0  0;
+    background: var(--main-color);
+    opacity: 95%;
+    flex-direction: column;
+    padding: 1em;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    transition: 0.25s;
+  }
+
+  .navigation[data-visible="false"] {
+    transform: translateX(100%);
+  }
+
+  .navigation[data-visible="true"] {
+    transform: translateX(82%);
+  }
+
+  .navigation li {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    text-align: left;
+    font-family: var(--main-font);
+    font-size: 1.5rem;
+  }
+
+  .navigation a {
+    color: var(--another-color);
+  }
+  .menu-toggle {
+    position: absolute;
+    z-index: 10000;
+    background: url(/img/menu.png);
+    background-repeat: no-repeat;
+    width: 24px;
+    aspect-ratio: 1;
+    top: 0.75rem;
+    right: 0.75rem;
+    border: 0;
+  }
+  .menu-toggle {
+  position: absolute;
+}
+}
+
+
 @media only screen and (max-width: 400px) {
   .navigation {
-    position: absolute;
+    position: fixed;
     z-index: 1000;
     inset: 0 0 0 0;
     background: var(--main-color);
@@ -106,10 +206,14 @@ nav a:hover {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    transform: translateX(100%);
     transition: 0.25s;
   }
+
   .navigation[data-visible="false"] {
+    transform: translateX(100%);
+  }
+
+  .navigation[data-visible="true"] {
     transform: translateX(0%);
   }
 
@@ -135,8 +239,11 @@ nav a:hover {
     right: 0.75rem;
     border: 0;
   }
+  .menu-toggle {
+  position: absolute;
+}
 }
 
-.menu-toggle {
-  position: absolute;
+.about img{
+  width: 25vw;
 }
