@@ -22,4 +22,4 @@ window.onload = function () {
 const teacherOne = `Matt`;
 const teacherTwo = `Glen`;
 
-console.log(`Easter egg for the ${teacherOne} or ${teacherTwo}`);
+console.log(`Easter egg for ${teacherOne} or ${teacherTwo}`);
