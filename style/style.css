@@ -33,15 +33,6 @@ main  {
   margin-top: auto;
 }
 
-main.portfolio{
- margin-top: 5em;
-}
-
-.portfolio img{
-  width: 66.6vw;
-  z-index: -1;
-}
-
 #hero {
   position: sticky;
   width: 100vw;
@@ -54,54 +45,8 @@ main.portfolio{
   background-size: cover;
 }
 
-
-
-/* #about{
-  margin-top: 2em
-} */
-
-.button {
-  color: var(--another-color);
-  border: 2px solid var(--secondary-color);
-  padding: 0.5rem 1rem;
-  text-decoration: none;
-  transition: 0.3s;
-}
-
-main a:hover {
+a:hover {
   background-color: var(--secondary-color);
-}
-
-.entry img {
-  width: 33.3%;
-  border: 4px solid var(--another-color);
-  border-radius: 50%;
-}
-
-#heading {
-  padding: 1em;
-  margin-bottom: 0.2em;
-}
-
-.entry p {
-  font-family: "Montserrat", sans-serif;
-  padding: 1.5em;
-}
-
-footer {
-  background: var(--secondary-color);
-  padding: 1em;
-  width: 100%;
-  margin-top: auto;
-  text-align: center;
-  z-index: 1000;
-}
-
-.navigation {
-  display: flex;
-  flex-wrap: flex;
-  align-items: flex-end;
-  /* background: var(--main-color); */
 }
 
 ul li {
@@ -116,17 +61,87 @@ a {
   font-size: 1.5rem;
 }
 
-.navigation a {
+/* NAV AND HEADER STYLES */
+
+.button {
   color: var(--another-color);
+  border: 2px solid var(--secondary-color);
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  transition: 0.3s;
 }
 
-nav a:hover {
-  color: var(--background-color);
+.navigation {
+  display: flex;
+  flex-wrap: flex;
+  align-items: flex-end;
+  /* background: var(--main-color); */
 }
 
+#heading {
+  padding: 1em;
+  margin-bottom: 0.2em;
+}
+
+footer {
+  background: var(--secondary-color);
+  padding: 1em;
+  width: 100%;
+  margin-top: auto;
+  text-align: center;
+  z-index: 1000;
+}
+
+/* ABOUT STYLES */
+
+
+/* PORTFOLIO STYLES */
+
+
+main.portfolio{
+ margin-top: 5em;
+}
+
+.portfolio img{
+  width: 66.6vw;
+  z-index: -1;
+}
+
+
+
+/* ABOUT STYLES */
 .about img{
-  width: 25vw;
+  width: 50vw;
+  padding: 0.5em;
+  max-height: 40em;
 }
+
+/* #about{
+  margin-top: 2em
+} */
+
+/* LANDING STYLES */
+
+.entry img {
+  width: 33.3%;
+  border: 4px solid var(--another-color);
+  border-radius: 50%;
+}
+
+.entry p {
+  font-family: "Montserrat", sans-serif;
+  padding: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* @media only screen and (max-width: 400px) {
   body{
@@ -164,9 +179,17 @@ nav a:hover {
     }
 }
 
-/* PHONE AND TABLET STYLES */
+/* TABLET STYLES */
+
+
 
 @media only screen and (min-width: 401px) and (max-width: 800px){
+
+.about h2{
+  display: flex;
+  flex-direction: row;
+}
+
     .navigation {
     position: fixed;
     z-index: 1000;
@@ -348,7 +371,7 @@ h2{
   padding: 0.5em;
 }
 
-.blog-posts article{
+article{
     display: flex;
     font-size: 0.7em;
     background: var(--background-color);
@@ -356,6 +379,21 @@ h2{
     max-height: 40vh;
     justify-content: center;
     align-items: center;
+}
+
+
+
+.about section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.about span{
+  display: flex;
+  flex-direction: column;
 }
 
 .blog-posts span{
@@ -373,6 +411,10 @@ header {
 
 .even img{
   order: 2;
+}
+
+span h2{
+  text-align: center;
 }
 
 main article img{
@@ -406,4 +448,8 @@ h3{
 
 #form{
   margin-left: 0.5em;
+}
+
+.about{
+  padding-top: 1em;
 }
