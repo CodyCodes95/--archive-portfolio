@@ -10,6 +10,19 @@
 
 /* GLOBAL VALUES */
 
+ body::before {
+    content: "";
+    background: url(/img/iphone-background.jpg) center;
+    background-size: cover;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.2;
+    z-index: -1;
+  }
+
 * {
   margin: 0;
   padding: 0;
@@ -36,8 +49,13 @@ main {
   margin-top: auto;
 }
 
-a:hover {
+.button:hover {
   background-color: var(--secondary-color);
+  color: #b1cbbb;
+}
+
+a:hover{
+  color: #f29191;
 }
 
 ul li {
@@ -50,6 +68,7 @@ a {
   text-align: center;
   font-family: var(--main-font);
   font-size: 1.5rem;
+  transition: 0.3s;
 }
 
 p {
@@ -131,13 +150,14 @@ footer {
   border: 2px solid var(--secondary-color);
   padding: 0.5rem 1rem;
   text-decoration: none;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 .navigation {
   display: flex;
   flex-wrap: flex;
   align-items: flex-end;
+  font-size: 1.5em;
   /* background: var(--main-color); */
 }
 
@@ -308,8 +328,7 @@ margin:0.5em auto;
   }
 
   .menu-toggle {
-    position: absolute;
-    top: -20px;
+    display: none;
   }
 
   .resume-desktop {
@@ -467,9 +486,7 @@ margin:0.5em auto;
     right: 0.75rem;
     border: 0;
   }
-  .menu-toggle {
-    position: absolute;
-  }
+
   #hide-mobile {
     display: none;
   }
@@ -500,36 +517,6 @@ margin:0.5em auto;
     transition: 0.25s;
   }
 
-  body {
-    background-color: var(--another-color);
-    z-index: -2;
-  }
-
-  /* body#portfolio::before {  
-      content: "";
-      background: url(/img/code.JPG) center;
-      background-size: cover;
-      position: absolute;
-      top: 0px;
-      right: 0px;
-      bottom: 0px;
-      left: 0px;
-      opacity: 0.1;
-      z-index: -1;
-  } */
-
-  body::before {
-    content: "";
-    background: url(/img/iphone-background.jpg) center;
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.1;
-    z-index: -1;
-  }
   .navigation[data-visible="false"] {
     transform: translateX(100%);
   }
@@ -593,37 +580,7 @@ margin:0.5em auto;
     flex-wrap: wrap;
     transition: 0.25s;
   }
-
-  body {
-    background-color: var(--another-color);
-    z-index: -2;
-  }
-
-  /* body#portfolio::before {  
-      content: "";
-      background: url(/img/code.JPG) center;
-      background-size: cover;
-      position: absolute;
-      top: 0px;
-      right: 0px;
-      bottom: 0px;
-      left: 0px;
-      opacity: 0.1;
-      z-index: -1;
-  } */
-
-  body::before {
-    content: "";
-    background: url(/img/iphone-background.jpg) center;
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.1;
-    z-index: -1;
-  }
+ 
   .navigation[data-visible="false"] {
     transform: translateX(100%);
   }
