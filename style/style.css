@@ -412,6 +412,18 @@ button {
     flex-direction: column;
     border: 2px solid var(--main-color);
   }
+  .resume section{
+  width: 100%;
+}
+
+#resume article{
+  width: 75em;
+  height: 100em;
+}
+
+main.resume{
+  margin-top: 1em;
+}
 }
 
 /* TABLET STYLES */
@@ -517,6 +529,7 @@ button {
   .even img {
     order: 2;
   }
+  
 }
 
 /* PHONE ONLY STYLES */
@@ -581,6 +594,8 @@ button {
   #social-links img {
     width: 25vw;
   }
+
+
 }
 
 /* TINY PHONE STYLES */
@@ -655,3 +670,4 @@ button {
     width: 25vw;
   }
 }
+
