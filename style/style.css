@@ -52,7 +52,7 @@ a {
   font-size: 1.5rem;
 }
 
-p{
+p {
   padding: 2em;
 }
 
@@ -112,8 +112,6 @@ footer {
   z-index: 1000;
 }
 
-
-
 /* NAV AND HEADER STYLES */
 
 #hero {
@@ -160,7 +158,7 @@ main.portfolio {
   margin: 1.5em;
 }
 
-.portfolio section{
+.portfolio section {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -172,8 +170,8 @@ main.portfolio {
   width: 50vw;
   margin: 0.5em;
   max-height: 40em;
-    border: 0.0000000001px solid ;
-    border-radius: 50%;
+  border: 0.0000000001px solid;
+  border-radius: 50%;
 }
 
 .about section {
@@ -200,7 +198,6 @@ main.portfolio {
   padding-top: 1em;
 }
 
-
 /* LANDING STYLES */
 
 .entry img {
@@ -216,7 +213,7 @@ main.portfolio {
 
 /* RESUME STYLES */
 
-.resume section{
+.resume section {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -227,7 +224,7 @@ main.portfolio {
   width: 8em;
 }
 
-main.resume{
+main.resume {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -260,6 +257,11 @@ section#resume {
   flex-direction: column;
 }
 
+.article article {
+  height: 50vh;
+  background-color: #b1cbbb;
+}
+
 .blog-posts p {
   text-align: left;
 }
@@ -273,11 +275,19 @@ section#resume {
 }
 
 #social-links img {
-  width: 25vw;
+  width: 15vw;
+  fill: white;
 }
 
 #form {
   margin-left: 0.5em;
+  text-align: center;
+}
+
+button{
+margin:0.5em auto;
+    display:block;
+    padding: 0.5em;
 }
 
 /* DESKTOP STYLES */
@@ -308,20 +318,62 @@ section#resume {
     margin-top: 1em;
   }
 
-  .about img{
+  .about img {
     width: 33vw;
   }
 
-  .about h2{
+  .about h2 {
     margin: 1em;
   }
+
+  main.portfolio {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .portfolio img {
+    width: 15vw;
+    min-height: 6em;
+  }
+
+  .portfolio p {
+    height: 100%;
+  }
+
+  .portfolio section {
+    height: 100%;
+    justify-content: flex-start;
+    text-align: center;
+  }
+
+  .blog-posts div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .blog-posts a:nth-child(1) {
+    grid-column: span 4;
+  }
+
+  .blog-posts a:nth-child(4) {
+    grid-column: span 2;
+  }
+
+  .blog-posts article {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .article .even img {
+    order: 0;
+  }
+
 
 }
 
 /* TABLET STYLES */
 
 @media only screen and (min-width: 426px) and (max-width: 800px) {
-
   .navigation {
     position: fixed;
     z-index: 1000;
@@ -337,51 +389,55 @@ section#resume {
     transition: 0.25s;
   }
 
-  .about section{
+  .about section {
     display: flex;
     flex-direction: column;
   }
 
-.about h2{
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  .about h2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-}
-
-  .about img{
+  .about img {
     width: 33vw;
   }
 
-  .even img{
-    order:0;
+  .even img {
+    order: 0;
   }
 
-main.about{
+  main.about {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     text-align: center;
   }
 
-  main.portfolio{
-    display: flex;
-    flex-direction: row;
-    /* flex-wrap: wrap; */
+  main.portfolio {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
-  .portfolio img{
+  .portfolio img {
     width: 33vw;
   }
 
-.portfolio section{
-  display: flex;
-  flex-direction: column;
-}
+  .portfolio section {
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+  }
 
-/* WHY IS THE ABOVE CODE NOT WRAPPING? */
-  
+  .portfolio p {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
   .navigation[data-visible="false"] {
     transform: translateX(100%);
@@ -417,11 +473,14 @@ main.about{
   #hide-mobile {
     display: none;
   }
+  .even img {
+    order: 2;
+  }
 }
 
 /* PHONE ONLY STYLES */
 
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 301px) and (max-width: 425px) {
   p {
     text-align: center;
     padding: 1em;
@@ -507,6 +566,111 @@ main.about{
   #hide-mobile {
     display: none;
   }
+
+  #social-links img {
+  width: 25vw;
+}
 }
 
+/* TINY PHONE STYLES */
 
+@media only screen and (max-width: 300px) {
+  p {
+    text-align: center;
+    padding: 1em;
+  }
+  .navigation {
+    position: fixed;
+    z-index: 1000;
+    inset: 0 0 0 0;
+    background: var(--main-color);
+    opacity: 95%;
+    flex-direction: column;
+    padding: 1em;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    transition: 0.25s;
+  }
+
+  body {
+    background-color: var(--another-color);
+    z-index: -2;
+  }
+
+  /* body#portfolio::before {  
+      content: "";
+      background: url(/img/code.JPG) center;
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.1;
+      z-index: -1;
+  } */
+
+  body::before {
+    content: "";
+    background: url(/img/iphone-background.jpg) center;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.1;
+    z-index: -1;
+  }
+  .navigation[data-visible="false"] {
+    transform: translateX(100%);
+  }
+
+  .navigation[data-visible="true"] {
+    transform: translateX(0%);
+  }
+
+  .navigation li {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    text-align: center;
+    font-family: var(--main-font);
+    font-size: 1.5rem;
+  }
+
+  .navigation a {
+    color: var(--another-color);
+  }
+  .menu-toggle {
+    position: absolute;
+    z-index: 10000;
+    /* background: url(/img/menu.png); */
+    background-repeat: no-repeat;
+    width: 2em;
+    aspect-ratio: 1;
+    top: 0.75rem;
+    right: 0.75rem;
+    border: 0;
+  }
+  .menu-toggle {
+    position: absolute;
+  }
+  #hide-mobile {
+    display: none;
+  }
+
+  main,
+  article,
+  section,
+  span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #social-links img {
+  width: 25vw;
+}
+}
