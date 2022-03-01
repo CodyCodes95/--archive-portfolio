@@ -151,15 +151,15 @@ footer {
   background-size: cover;
 }
 
- .menu-toggle {
-    position: absolute;
-    z-index: 10000;
-    width: 37px;
-    aspect-ratio: 1;
-    top: 0.75rem;
-    right: 0.75rem;
-    border: 0;
-  }
+.menu-toggle {
+  position: absolute;
+  z-index: 10000;
+  width: 37px;
+  aspect-ratio: 1;
+  top: 0.75rem;
+  right: 0.75rem;
+  border: 0;
+}
 
 .button {
   color: var(--another-color);
@@ -223,13 +223,6 @@ main.portfolio {
   flex-direction: column;
 }
 
-.article {
-  display: block;
-  text-decoration: none;
-  color: var(--main-color);
-  font-size: 1em;
-}
-
 .about {
   padding-top: 1em;
 }
@@ -270,23 +263,12 @@ main.resume {
   align-items: center;
 }
 
-.resume section a{
+.resume section a {
   padding: 1em;
 }
-main.resume{
+main.resume {
   margin-top: 3em;
 }
-
-/* .resume article {
-  width: 100vw;
-}
-
-section#resume {
-  width: 100vw;
-  text-align: center;
-}
-
-
 
 #resume a {
   text-decoration: none;
@@ -295,9 +277,17 @@ section#resume {
   justify-content: center;
   margin: 3em;
   color: var(--main-color);
-} */
+}
+*/
 
 /* BLOG POST STYLES */
+
+.article {
+  display: block;
+  text-decoration: none;
+  color: var(--main-color);
+  font-size: 1em;
+}
 
 .blog-posts span {
   display: flex;
@@ -305,33 +295,98 @@ section#resume {
   overflow: hidden;
 }
 
+.article span h3 {
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: "Smooch Sans", sans-serif;
+}
+
 .article article {
-  height: 50vh;
+  /* height: 50vh; */
   background-color: #b1cbbb;
+  /* font-size: 1em; */
 }
 
 .blog-posts p {
   text-align: left;
 }
 
-
-
 /* CONTACT STYLES */
+
+.button2 {
+  height: 60px;
+  width: 60px;
+  background-color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  float: left;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  color: black;
+}
+
+.button2 .icon {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.button2:hover {
+  width: 11.5em;
+}
+.button2:nth-child(2):hover i {
+  color: #0e76a8;
+}
+.button2:nth-child(2):hover {
+  color: #0e76a8;
+}
+
+.button2 span {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+}
+
+.button2 .icon i {
+  font-size: 25px;
+  line-height: 60px;
+  color: black;
+  position: relative;
+  left: 5%;
+}
+
+/* The position relative and left above is a dodgy fix to get the icons to center. I am unsure how to do it without */
 
 #social-links {
   margin-top: 1em;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  column-gap: 2em;
 }
 
-#social-links img {
-  width: 15vw;
-  fill: white;
+.contact h2 {
+  padding-top: 2em;
+  text-align: center;
+  font-size: 2em;
+}
+
+.contact {
+  margin-top: 0em;
+}
+
+.icon a {
+  width: 0.0000000001px;
 }
 
 #form {
   margin-left: 0.5em;
   text-align: center;
+  font-size: 1.5em;
 }
 
 button {
@@ -433,18 +488,18 @@ button {
     flex-direction: column;
     border: 2px solid var(--main-color);
   }
-  .resume section{
-  width: 100%;
-}
+  .resume section {
+    width: 100%;
+  }
 
-.resume article{
-  width: 75em;
-  height: 100em;
-}
+  .resume article {
+    width: 75em;
+    height: 100em;
+  }
 
-main.resume{
-  margin-top: 1em;
-}
+  main.resume {
+    margin-top: 1em;
+  }
 }
 
 /* TABLET STYLES */
@@ -541,7 +596,6 @@ main.resume{
   .even img {
     order: 2;
   }
-  
 }
 
 /* PHONE ONLY STYLES */
@@ -585,7 +639,7 @@ main.resume{
   .navigation a {
     color: var(--another-color);
   }
- 
+
   .menu-toggle {
     position: absolute;
   }
@@ -597,7 +651,16 @@ main.resume{
     width: 25vw;
   }
 
-
+  main.blog-posts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .blog-posts article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 /* TINY PHONE STYLES */
@@ -659,4 +722,3 @@ main.resume{
     width: 25vw;
   }
 }
-
