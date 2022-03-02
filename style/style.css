@@ -81,21 +81,11 @@ p {
   padding: 2em;
 }
 
-header h1 {
-  text-align: center;
-  margin-top: 2em;
-  color: var(--main-color);
-  position: relative;
-  top: 1.2em;
-  background: var(--secondary-color);
-  width: 100vw;
-  /* margin-bottom: 2em; */
-}
 h2 {
   padding: 0.5em;
 }
 
-article {
+.blog-posts article {
   display: flex;
   font-size: 0.7em;
   background: var(--background-color);
@@ -103,10 +93,6 @@ article {
   max-height: 40vh;
   justify-content: center;
   align-items: center;
-}
-
-header {
-  margin-bottom: 3em;
 }
 
 .even img {
@@ -117,7 +103,7 @@ span h2 {
   text-align: center;
 }
 
-main article img {
+.blog-posts article img {
   border: 2px solid var(--main-color);
   border-radius: 50%;
   height: 10em;
@@ -140,6 +126,21 @@ footer {
 }
 
 /* NAV AND HEADER STYLES */
+
+header {
+  margin-bottom: auto;
+}
+
+header h1 {
+  text-align: center;
+  margin-top: 2em;
+  color: var(--main-color);
+  position: relative;
+  top: 1.2em;
+  background: var(--secondary-color);
+  width: 100vw;
+  /* margin-bottom: 2em; */
+}
 
 #hero {
   position: sticky;
@@ -723,4 +724,40 @@ button {
   #social-links img {
     width: 25vw;
   }
+}
+
+
+
+.blog-article section{
+display: block;
+width: 100%;
+text-align: left;
+padding: 2em;
+}
+
+.blog-article article{
+  display: flex;
+}
+
+.blog-article article p{
+    display: inline-block;
+    font-size: 1.5em;
+    padding: 2em;
+    text-align: left;
+}
+
+.blog-article img{
+  width: 20em;
+  display: inline-block;
+  margin: 2em;
+  aspect-ratio: 1;
+}
+
+.blog-heading{
+ color: var(--Photo-border-color)
+}
+
+.blog-article article span{
+  display: flex;
+  flex-direction: column;
 }
