@@ -129,8 +129,10 @@ h3 {
 }
 
 footer {
+  position: sticky;
+  bottom: 0px;
   background: var(--secondary-color);
-  padding: 1em;
+  padding: 0.75em;
   width: 100%;
   margin-top: auto;
   text-align: center;
