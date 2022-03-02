@@ -726,38 +726,48 @@ button {
   }
 }
 
-
-
-.blog-article section{
-display: block;
-width: 100%;
-text-align: left;
-padding: 2em;
+.blog-article section {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 2em;
 }
 
-.blog-article article{
+.blog-article article {
   display: flex;
 }
 
-.blog-article article p{
-    display: inline-block;
-    font-size: 1.5em;
-    padding: 2em;
-    text-align: left;
+.blog-article article p {
+  display: inline-block;
+  font-size: 1.5em;
+  padding: 2em;
+  text-align: left;
 }
 
-.blog-article img{
+.blog-article img {
   width: 20em;
   display: inline-block;
   margin: 2em;
   aspect-ratio: 1;
 }
 
-.blog-heading{
- color: var(--Photo-border-color)
+.blog-heading {
+  color: var(--Photo-border-color);
 }
 
-.blog-article article span{
+.blog-article article span {
   display: flex;
   flex-direction: column;
+}
+
+/* See if I can incorporate this */
+body {
+  background-image: linear-gradient(
+    to right,
+    #852416,
+    #6a1b16,
+    #501414,
+    #360e0e,
+    #200302
+  );
 }
