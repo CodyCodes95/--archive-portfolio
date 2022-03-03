@@ -335,7 +335,8 @@ main.resume {
 }
 
 .article span h3 {
-  font-size: 1.5em;
+  font-size: 1.75rem;
+  margin: 1rem;
   font-weight: bold;
   font-family: "Smooch Sans", sans-serif;
 }
@@ -742,6 +743,10 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .even img{
+    order: 0;
   }
   
 }
