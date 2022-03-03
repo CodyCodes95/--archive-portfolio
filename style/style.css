@@ -163,7 +163,6 @@ header h1 {
   position: absolute;
   z-index: 10000;
   width: 37px;
-  aspect-ratio: 1;
   top: 0.75rem;
   right: 0.75rem;
   border: 0;
@@ -179,7 +178,6 @@ header h1 {
 
 .navigation {
   display: flex;
-  flex-wrap: flex;
   align-items: flex-end;
   font-size: 1.5em;
   /* background: var(--main-color); */
@@ -280,7 +278,7 @@ main.entry {
   margin-bottom: 2rem;
 }
 
-.resume section {
+.resume span {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -297,7 +295,7 @@ main.resume {
   align-items: center;
 }
 
-.resume section a {
+.resume span a {
   padding: 1em;
 }
 main.resume {
@@ -312,16 +310,9 @@ main.resume {
   margin: 3em;
   color: var(--main-color);
 }
-*/
+
 
 /* BLOG POST STYLES */
-
-.article {
-  display: block;
-  text-decoration: none;
-  color: var(--main-color);
-  font-size: 1em;
-}
 
 .blog-posts span {
   display: flex;
@@ -399,7 +390,9 @@ main.resume {
 #social-links {
   margin-top: 1em;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+
   column-gap: 2em;
 }
 
@@ -564,11 +557,11 @@ button {
     flex-direction: column;
     /* border: 2px solid var(--main-color); */
   }
-  .resume section {
+  .resume div {
     width: 100%;
   }
 
-  .resume article {
+  .resume div {
     margin-top: 7em;
     width: 55rem;
     height: 100vh;
@@ -825,6 +818,11 @@ button {
 
 .blog-article article {
   display: flex;
+  flex-direction: column;
+}
+.blog-article article div {
+  display: flex;
+  flex-direction: row;
 }
 
 .blog-article article p {
@@ -834,18 +832,21 @@ button {
   text-align: left;
 }
 
+.blog-article article p:nth-child(1) {
+  display: inline;
+}
+
 .blog-article img {
   width: 20em;
-  display: inline-block;
+  display: inline;
   margin: 2em;
-  aspect-ratio: 1;
 }
 
 .blog-heading {
   color: var(--Photo-border-color);
 }
 
-.blog-article article span {
+.blog-article article {
   display: flex;
   flex-direction: column;
 }
@@ -860,4 +861,14 @@ body {
     #360e0e,
     #200302
   );
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+object.pdf-viewer {
+  height: 100%;
+  width: 100%;
 }
