@@ -11,8 +11,6 @@
 
 /* GLOBAL VALUES */
 
-
-
 body::before {
   content: "";
   background: url(/img/iphone-background.jpg) center;
@@ -88,19 +86,20 @@ p {
 .blog-posts article {
   display: flex;
   font-size: 0.7em;
-  background: var(--background-color);
-  max-height: 40vh;
+  background: var(--secondary-color);
+  min-height: 40vh;
   justify-content: center;
   align-items: center;
+  box-shadow: 0.5em 0.7em 1em black;
 }
 
-.blog-posts a.article:nth-child(1){
+
+.blog-posts a.article:nth-child(1) {
   margin-top: 4rem;
 }
-.blog-posts a.article:nth-child(5){
+.blog-posts a.article:nth-child(5) {
   margin-bottom: 1rem;
 }
-
 
 .even img {
   order: 2;
@@ -236,7 +235,7 @@ main.portfolio {
   padding-top: 1em;
 }
 
-.about h2{
+.about h2 {
   font-size: 2.5rem;
 }
 
@@ -258,30 +257,27 @@ main.portfolio {
   text-align: center;
 }
 
-main.entry{
+main.entry {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.entry h1{
+.entry h1 {
   margin-top: 3rem;
   text-align: center;
 }
 
-#gradient{
+#gradient {
   border: 2px solid var(--background-color);
   border-radius: 0;
   width: 35%;
   margin: 1rem;
-
 }
-
-
 
 /* RESUME STYLES */
 
-#download{
+#download {
   margin-bottom: 2rem;
 }
 
@@ -341,11 +337,7 @@ main.resume {
   font-family: "Smooch Sans", sans-serif;
 }
 
-.article article {
-  /* height: 50vh; */
-  background-color: var(--secondary-color);
-  /* font-size: 1em; */
-}
+
 
 .blog-posts p {
   text-align: left;
@@ -440,6 +432,14 @@ button {
   padding: 0.5em;
 }
 
+ .about section:nth-child(1) {
+    border-right: 1px solid var(--another-color);
+  }
+
+  .about section:nth-child(2) {
+    border-left: 1px solid var(--another-color);
+  }
+
 /* DESKTOP STYLES */
 
 @media only screen and (min-width: 801px) {
@@ -459,7 +459,9 @@ button {
       #200302
     );
     padding: 0 0.75em;
+    box-shadow: 1em 1em 1em black;
   }
+  
   #nav a {
     color: var(--main-color);
     font-size: 1em;
@@ -487,29 +489,29 @@ button {
     margin: 1em;
   }
 
-  .about section:nth-child(1){
-  border-right: 1px solid var(--another-color);
-}
+  .about section:nth-child(1) {
+    border-right: 1px solid var(--another-color);
+  }
 
-.about section:nth-child(2){
-  border-left: 1px solid var(--another-color);
-}
+  .about section:nth-child(2) {
+    border-left: 1px solid var(--another-color);
+  }
 
   main.portfolio {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
-.portfolio img{
-  width: 50%;
-}
+  .portfolio img {
+    width: 50%;
+  }
 
-.portfolio span{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-  
+  .portfolio span {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
   .portfolio p {
     height: 100%;
   }
@@ -722,14 +724,14 @@ button {
     width: 25vw;
   }
 
-  main.about{
+  main.about {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     align-items: center;
   }
 
-  .about section{
-     display: flex;
+  .about section {
+    display: flex;
     flex-direction: column;
     align-items: center;
   }
@@ -745,10 +747,9 @@ button {
     align-items: center;
   }
 
-  .even img{
+  .even img {
     order: 0;
   }
-  
 }
 
 /* TINY PHONE STYLES */
@@ -856,4 +857,3 @@ body {
     #200302
   );
 }
-
