@@ -227,14 +227,6 @@ main.portfolio {
   margin: 2rem 0;
 }
 
-.about section:nth-child(1){
-  border-right: 1px solid var(--another-color);
-}
-
-.about section:nth-child(2){
-  border-left: 1px solid var(--another-color);
-}
-
 .about span {
   display: flex;
   flex-direction: column;
@@ -493,6 +485,14 @@ button {
   .about h2 {
     margin: 1em;
   }
+
+  .about section:nth-child(1){
+  border-right: 1px solid var(--another-color);
+}
+
+.about section:nth-child(2){
+  border-left: 1px solid var(--another-color);
+}
 
   main.portfolio {
     display: grid;
