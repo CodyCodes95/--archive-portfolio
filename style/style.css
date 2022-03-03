@@ -93,7 +93,6 @@ p {
   box-shadow: 0.5em 0.7em 1em black;
 }
 
-
 .blog-posts a.article:nth-child(1) {
   margin-top: 4rem;
 }
@@ -337,8 +336,6 @@ main.resume {
   font-family: "Smooch Sans", sans-serif;
 }
 
-
-
 .blog-posts p {
   text-align: left;
 }
@@ -432,17 +429,17 @@ button {
   padding: 0.5em;
 }
 
- .about section:nth-child(1) {
-    border-right: 1px solid var(--another-color);
-  }
+.about section:nth-child(1) {
+  border-right: 1px solid var(--another-color);
+}
 
-  .about section:nth-child(2) {
-    border-left: 1px solid var(--another-color);
-  }
+.about section:nth-child(2) {
+  border-left: 1px solid var(--another-color);
+}
 
 /* DESKTOP STYLES */
 
-@media only screen and (min-width: 801px) {
+@media only screen and (min-width: 901px) {
   #nav {
     display: flex;
     flex-direction: row;
@@ -461,14 +458,14 @@ button {
     box-shadow: 1em 1em 1em black;
   }
 
-  nav.navigation{
+  nav.navigation {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     width: 100%;
     margin-top: 1rem;
   }
-  
+
   #nav a {
     color: var(--main-color);
     font-size: 1em;
@@ -584,7 +581,7 @@ button {
 
 /* TABLET STYLES */
 
-@media only screen and (min-width: 426px) and (max-width: 800px) {
+@media only screen and (min-width: 426px) and (max-width: 900px) {
   .navigation {
     position: fixed;
     z-index: 1000;
