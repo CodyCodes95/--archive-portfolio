@@ -7,6 +7,7 @@
   --another-color: #acac9a;
   --Photo-border-color: #bfa5a5;
   --main-font: "Montserrat", sans-serif;
+  --heading-font:"Smooch Sans", sans-serif
 }
 
 /* GLOBAL VALUES */
@@ -39,6 +40,14 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
   font-family: var(--main-font);
+   background-image: linear-gradient(
+    to right,
+    #852416,
+    #6a1b16,
+    #501414,
+    #360e0e,
+    #200302
+  );
 }
 
 main {
@@ -851,17 +860,15 @@ button {
   flex-direction: column;
 }
 
-/* See if I can incorporate this */
-body {
-  background-image: linear-gradient(
-    to right,
-    #852416,
-    #6a1b16,
-    #501414,
-    #360e0e,
-    #200302
-  );
+.blog-article h2{
+  margin-top: 2rem;
+  color: var(--main-color);
+  font-family: var(--heading-font);
+  font-weight: bold;
+  font-size: 5rem;
 }
+
+
 
 .buttons {
   display: flex;
