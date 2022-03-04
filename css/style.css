@@ -481,6 +481,10 @@ button {
     display: none;
   }
 
+  #current-page{
+  border: solid 1.5px var(--another-color);
+}
+
   .resume-desktop {
     position: relative;
     left: 10%;
@@ -583,7 +587,7 @@ button {
 
 /* TABLET STYLES */
 
-@media only screen and (min-width: 426px) and (max-width: 900px) {
+@media only screen and (min-width: 600px) and (max-width: 900px) {
   .navigation {
     position: fixed;
     z-index: 1000;
@@ -679,7 +683,7 @@ button {
 
 /* MOBILE STYLES */
 
-@media only screen and (min-width: 301px) and (max-width: 425px) {
+@media only screen and (min-width: 301px) and (max-width: 599px) {
   p {
     text-align: center;
     padding: 1em;
@@ -756,6 +760,7 @@ button {
   .even img {
     order: 0;
   }
+
 }
 
 /* TINY PHONE STYLES */
@@ -879,3 +884,4 @@ object.pdf-viewer {
   height: 100%;
   width: 100%;
 }
+
