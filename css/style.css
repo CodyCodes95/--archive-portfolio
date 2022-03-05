@@ -455,7 +455,6 @@ object.pdf-viewer {
   left: 5%;
 }
 
-/* The position relative and left above is a dodgy fix to get the icons to center. I am unsure how to do it without and maintain the animation */
 
 #social-links {
   margin-top: 1em;
@@ -842,6 +841,14 @@ button {
 #first-post{
   margin-top: 4rem;
 }
+
+.about section:nth-child(1) {
+  border: none;
+}
+
+.about section:nth-child(2) {
+  border: none;
+}
 }
 
 /* TINY PHONE STYLES */
@@ -906,7 +913,13 @@ button {
   #first-post{
   margin-top: 4rem;
 }
-  
+  .about section:nth-child(1) {
+  border: none;
+}
+
+.about section:nth-child(2) {
+  border: none;
+}
 }
 
 
