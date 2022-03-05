@@ -10,7 +10,7 @@
   --heading-font: "Smooch Sans", sans-serif;
 }
 
-/* GLOBAL VALUES */
+/* GLOBAL STYLES */
 
 body::before {
   content: "";
@@ -55,7 +55,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* position: relative; */
+  
   margin-top: auto;
   margin: 0 1rem;
 }
@@ -100,7 +100,7 @@ h3 {
 }
 
 footer {
-  /* position: sticky; */
+  
   bottom: 0px;
   background: var(--secondary-color);
   padding: 0.75em;
@@ -125,7 +125,6 @@ header h1 {
   background: var(--secondary-color);
   width: 100vw;
   box-shadow: 0.3rem 0.3rem 0.4rem black;
-  /* margin-bottom: 2em; */
 }
 
 #hero {
@@ -161,7 +160,6 @@ header h1 {
   display: flex;
   align-items: flex-end;
   font-size: 1.5em;
-  /* background: var(--main-color); */
 }
 
 .navigation a:hover {
@@ -369,12 +367,10 @@ object.pdf-viewer {
 .blog-article article {
   display: flex;
   flex-direction: column;
-  /* flex-wrap: wrap; */
 }
 .blog-article article div {
   display: flex;
   flex-direction: row;
-  /* flex-wrap: wrap; */
 }
 
 .blog-article article p {
@@ -556,7 +552,7 @@ button {
   }
 
   #current-page {
-    border: solid 1.5px var(--another-color);
+    border-bottom: solid 2.5px var(--another-color);
   }
 
   /* ABOUT STYLES */
@@ -583,7 +579,6 @@ button {
   .about section {
     display: flex;
     flex-direction: column;
-    /* border: 2px solid var(--main-color); */
   }
 
   /* RESUME STYLES */
@@ -787,7 +782,6 @@ button {
   
   p {
     text-align: center;
-    /* padding: 1em; */
   }
 
     #hide-mobile {
