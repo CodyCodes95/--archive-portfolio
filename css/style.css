@@ -154,6 +154,7 @@ header h1 {
   padding: 0.5rem 1rem;
   text-decoration: none;
   transition: 0.5s;
+  margin-bottom: auto;
 }
 
 .navigation {
@@ -236,7 +237,7 @@ main.portfolio {
 }
 
 .entry img {
-  width: 25%;
+  width: 20%;
   border: 4px solid var(--Photo-border-color);
   border-radius: 50%;
 }
