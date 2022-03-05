@@ -232,6 +232,17 @@ main.portfolio {
   color: #b1cbbb;
 }
 
+.entry section{
+  margin-bottom: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+}
+
+
+
 .entry a {
   color: var(--Photo-border-color);
 }
@@ -250,12 +261,13 @@ main.portfolio {
 
 main.entry {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .entry h1 {
-  margin-top: 3rem;
+  /* margin-top: 3rem; */
   text-align: center;
 }
 
