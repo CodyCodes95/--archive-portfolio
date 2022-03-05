@@ -55,7 +55,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+
   margin-top: auto;
   margin: 0 1rem;
 }
@@ -83,7 +83,7 @@ p {
   font-size: 1.25rem;
 }
 
-h2{
+h2 {
   font-family: var(--heading-font);
 }
 
@@ -100,7 +100,6 @@ h3 {
 }
 
 footer {
-  
   bottom: 0px;
   background: var(--secondary-color);
   padding: 0.75em;
@@ -199,7 +198,7 @@ main.portfolio {
   border-radius: 50%;
 }
 
-.about p{
+.about p {
   font-size: 1.25rem;
 }
 
@@ -209,7 +208,7 @@ main.portfolio {
   align-items: center;
   justify-content: center;
   margin: 2rem 0;
-    width: 50vw;
+  width: 50vw;
 }
 
 .about span {
@@ -232,7 +231,7 @@ main.portfolio {
   color: #b1cbbb;
 }
 
-.entry section{
+.entry section {
   margin-bottom: auto;
   display: flex;
   justify-content: center;
@@ -240,8 +239,6 @@ main.portfolio {
   flex-direction: column;
   width: 100vw;
 }
-
-
 
 .entry a {
   color: var(--Photo-border-color);
@@ -264,10 +261,11 @@ main.entry {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: auto;
 }
 
 .entry h1 {
-  /* margin-top: 3rem; */
+  margin-top: auto;
   text-align: center;
 }
 
@@ -475,7 +473,6 @@ object.pdf-viewer {
   left: 5%;
 }
 
-
 #social-links {
   margin-top: 1em;
   display: flex;
@@ -522,7 +519,6 @@ button {
 /* DESKTOP STYLES */
 
 @media only screen and (min-width: 901px) {
-  
   /* NAVIGATION */
 
   #nav {
@@ -582,7 +578,7 @@ button {
     border-left: 1px solid var(--another-color);
   }
 
-   main.about {
+  main.about {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -596,7 +592,7 @@ button {
 
   /* RESUME STYLES */
 
-   .resume-desktop {
+  .resume-desktop {
     position: relative;
     left: 10%;
     margin-top: 1em;
@@ -675,7 +671,6 @@ button {
 /* TABLET STYLES */
 
 @media only screen and (min-width: 600px) and (max-width: 900px) {
-
   /* NAVIGATION STYLES */
 
   .navigation {
@@ -693,7 +688,7 @@ button {
     transition: 0.25s;
   }
 
-    .navigation[data-visible="false"] {
+  .navigation[data-visible="false"] {
     transform: translateX(100%);
   }
 
@@ -766,19 +761,19 @@ button {
   /* BLOG STYLES */
 
   .blog-article article div {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
-#first-post{
-  margin-top: 4rem;
-}
+  #first-post {
+    margin-top: 4rem;
+  }
 
-/* MISC STYLES */
+  /* MISC STYLES */
 
- #hide-mobile {
+  #hide-mobile {
     display: none;
   }
 
@@ -790,18 +785,17 @@ button {
 /* MOBILE STYLES */
 
 @media only screen and (min-width: 1px) and (max-width: 599px) {
-  
   /* UNIVERSAL STYLES */
-  
+
   p {
     text-align: center;
   }
 
-    #hide-mobile {
+  #hide-mobile {
     display: none;
   }
 
-   .even img {
+  .even img {
     order: 0;
   }
 
@@ -866,12 +860,12 @@ button {
   }
 
   .about section:nth-child(1) {
-  border: none;
-}
+    border: none;
+  }
 
-.about section:nth-child(2) {
-  border: none;
-}
+  .about section:nth-child(2) {
+    border: none;
+  }
 
   /* BLOG STYLES */
 
@@ -887,28 +881,28 @@ button {
   }
 
   .blog-article article div {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-.blog-article article{
-      display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-}
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .blog-article article {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
-main.blog-article{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
+  main.blog-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
 
-#first-post{
-  margin-top: 4rem;
-}
+  #first-post {
+    margin-top: 4rem;
+  }
 }
