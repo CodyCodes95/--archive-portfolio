@@ -787,7 +787,7 @@ button {
   
   p {
     text-align: center;
-    padding: 1em;
+    /* padding: 1em; */
   }
 
     #hide-mobile {
@@ -855,6 +855,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
   }
 
   .about section:nth-child(1) {
