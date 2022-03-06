@@ -20,60 +20,60 @@ The tech stack used for the website development was HTML, CSS and Javascript.
 
 **Sitemap**
 
-![image](/readme-screenshots/sitemap.png)
+![image](/docs/sitemap.png)
 
 **Mobile Layouts**
 
 *About page*
 
-![image](/readme-screenshots/iphone-about.jpg)
+![image](/docs/iphone-about.jpg)
 
 *Resume*
 
-![image](/readme-screenshots/iphone-resume.jpg)
+![image](/docs/iphone-resume.jpg)
 
 *Portfolio*
 
-![image](/readme-screenshots/iphone-portfolio.jpg)
+![image](/docs/iphone-portfolio.jpg)
 
 *Mobile Nav Bar*
 
-![image](/readme-screenshots/iphone-nav.PNG)
+![image](/docs/iphone-nav.PNG)
 
 **Tablet Layouts**
 
 *About*
 
-![image](/readme-screenshots/ipad-about.jpeg)
+![image](/docs/ipad-about.jpeg)
 
 *Portfolio*
 
-![image](/readme-screenshots/ipad-portfolio.jpeg)
+![image](/docs/ipad-portfolio.jpeg)
 
 *Tablet Nav Bar*
 
-![image](/readme-screenshots/ipad-nav.jpeg)
+![image](/docs/ipad-nav.jpeg)
 
 **Desktop layouts**
 
 *About*
 
-![image](/readme-screenshots/desktop-about.jpg)
+![image](/docs/desktop-about.jpg)
 
 *Portfolio*
 
-![image](/readme-screenshots/desktop-portfolio.jpg)
+![image](/docs/desktop-portfolio.jpg)
 
 *In Browser PDF viewer* 
 
-![image](/readme-screenshots/desktop-resume.jpg)
+![image](/docs/desktop-resume.jpg)
 
 *Contact Page*
 
-![image](/readme-screenshots/desktop-contact.jpg)
+![image](/docs/desktop-contact.jpg)
 
 *Hover animations*
 
-![image](/readme-screenshots/hover1.jpg)
+![image](/docs/hover1.jpg)
 
-![image](/readme-screenshots/hover2.jpg)
+![image](/docs/hover2.jpg)
