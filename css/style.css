@@ -332,13 +332,13 @@ object.pdf-viewer {
   justify-content: center;
   align-items: center;
   box-shadow: 0.5em 0.7em 1em black;
-  min-height: 3rem;
+  /* min-height: 3rem; */
 }
 
 .blog-posts article img {
   border: 2px solid var(--main-color);
   /* border-radius: 50%; */
-  max-height: 10rem;
+  width: 40%;
   margin: 1em;
 
 }
