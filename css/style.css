@@ -228,8 +228,12 @@ main.portfolio {
   color: #b1cbbb;
 }
 
+main.entry{
+
+}
+
 .entry span {
-  margin-bottom: auto;
+  margin-bottom: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -242,7 +246,7 @@ main.portfolio {
 }
 
 .entry img {
-  width: 20%;
+  width: 20rem;
   border: 4px solid var(--Photo-border-color);
   border-radius: 50%;
 }
@@ -259,6 +263,7 @@ main.entry {
   justify-content: center;
   align-items: center;
   margin-bottom: auto;
+  margin: 2% 0;
 }
 
 .entry h1 {
