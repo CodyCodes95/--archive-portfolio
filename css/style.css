@@ -136,6 +136,7 @@ header h1 {
   align-items: center;
   justify-content: center;
   background-size: cover;
+  z-index: 100;
 }
 
 .menu-toggle {
@@ -396,7 +397,7 @@ object.pdf-viewer {
 }
 
 .blog-article img {
-  width: 15%;
+  width: 33%;
   display: inline;
   margin: 2em;
 }
@@ -445,7 +446,11 @@ object.pdf-viewer {
   width: 60px;
   text-align: center;
   border-radius: 50px;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.button2 i{
+  z-index: 1;
 }
 
 .button2:hover {
@@ -483,7 +488,7 @@ object.pdf-viewer {
 }
 
 .contact h2 {
-  padding-top: 2em;
+  padding: 3rem 0;
   text-align: center;
   font-size: 2em;
 }
@@ -505,7 +510,7 @@ object.pdf-viewer {
 button {
   margin: 0.5em auto;
   display: block;
-  padding: 0.5em;
+  padding: 1rem;
 }
 
 .about section:nth-child(1) {
