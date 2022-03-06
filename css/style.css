@@ -85,6 +85,7 @@ p {
 
 h2 {
   font-family: var(--heading-font);
+  font-size: 2.5rem;
 }
 
 .even img {
@@ -222,7 +223,7 @@ main.portfolio {
 }
 
 .about h2 {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
 }
 
 /* LANDING STYLES */
@@ -232,7 +233,7 @@ main.portfolio {
   color: #b1cbbb;
 }
 
-.entry section {
+.entry span {
   margin-bottom: auto;
   display: flex;
   justify-content: center;
@@ -486,7 +487,7 @@ object.pdf-viewer {
 .contact h2 {
   padding: 3rem 0;
   text-align: center;
-  font-size: 2em;
+  font-size: 3.5em;
 }
 
 .contact {
