@@ -1,27 +1,3 @@
-ooooooooooooooooooooooooooooooooooooooooooooo
-ooooooooooooooodxkO000000Okxdoooooooooooooooo
-ooooooooooook0XWMMMMMMMMMMMMMNKOxoooooooooooo
-oooooooookKWMMMMMMMMMMMMMMMMMMMMMN0dooooooooo
-oooooooONMMMMMMMMMMMMMMMMMMMMMMMMMMMXxooooooo
-ooooodXMMMMWKKKK0OOkkkkO0KKKKKKKKXMMMMKdooooo
-ooooxNMMMMMkol;'.........';cloooooNMMMMXdoooo
-ooodNMMMMMMo,...,:cclcc:,'    'ooooNMMMMMKoooo
-oooKMMMMMMd...;looooooooc ..  'oooOMMMMMMOooo
-ooxWMMMMMk...coooooooooc   c.  ,oolNMMMMMKooo
-ookMMMMMW:..;oooooooooc   coo.  ,oXMMMMMMNooo
-ookMMMMMW;..;ooooooool   coooo.  ;XMMMMMMNooo
-ccoWMMMMMd..'looooool.            OMMMMMMKccc
-...0MMMMMWl...:ooool   .........  kMMMMMWl...
-ooodXMMMMMWl'..';cl.  ,c:'..:ooo   MMMMMOoooo
-oooodXMMMMMxo:,.....'.....';loooo0MMMM0ooooo
-oooood0WMMMN000OkxdddddxkO0000000KWMMNkoooooo
-ooooooodKWMMMMMMMMMMMMMMMMMMMMMMMMMNOoooooooo
-ooooooooodOXMMMMMMMMMMMMMMMMMMMMWXkoooooooooo
-oooooooooooodk0KNWMMMMMMMMMWNK0kdoooooooooooo
-oooooooooooooooooodxxkkkxxdoooooooooooooooooo
-ooooooooooooooooooooooooooooooooooooooooooooo
-ooooooooooooooooooooooooooooooooooooooooooooo
-
 **Cody Partington portfolio website**
 
 https://codypartington.netlify.app/
@@ -42,21 +18,21 @@ The target audience is any and all potential employers. Attached below are some 
 
 **Sitemap**
 
-![image](/sitemap.png)
+![image](/readme-screenshots/sitemap.png)
 
 **Mobile Layouts**
 
 *About page*
 
-![image](/readme-screenshots/iphone-about.PNG)
+![image](/readme-screenshots/iphone-about.jpg)
 
 *Resume*
 
-![image](/readme-screenshots/iphone-res.PNG)
+![image](/readme-screenshots/iphone-resume.jpg)
 
 *Portfolio*
 
-![image](/readme-screenshots/iphone-port.PNG)
+![image](/readme-screenshots/iphone-portfolio.jpg)
 
 *Mobile Nav Bar*
 
@@ -66,32 +42,36 @@ The target audience is any and all potential employers. Attached below are some 
 
 *About*
 
-![image](/readme-screenshots/ipad-about.jpg)
+![image](/readme-screenshots/ipad-about.jpeg)
 
 *Portfolio*
 
-![image](/readme-screenshots/ipad-port.jpg)
+![image](/readme-screenshots/ipad-portfolio.jpeg)
 
 *Tablet Nav Bar*
 
-![image](/readme-screenshots/ipad-nav.jpg)
+![image](/readme-screenshots/ipad-nav.jpeg)
 
 **Desktop layouts**
 
+*About*
+
+![image](/readme-screenshots/desktop-about.jpg)
+
 *Portfolio*
 
-![image](/readme-screenshots/desktop-port.png)
+![image](/readme-screenshots/desktop-portfolio.jpg)
 
 *In Browser PDF viewer* 
 
-![image](/readme-screenshots/pdf-viewer.png)
+![image](/readme-screenshots/desktop-resume.jpg)
 
 *Contact Page*
 
-![image](/readme-screenshots/desktop-contact.png)
+![image](/readme-screenshots/desktop-contact.jpg)
 
 *Hover animations*
 
-![image](/readme-screenshots/github-hover.png)
+![image](/readme-screenshots/hover1.jpg)
 
-![image](/readme-screenshots/linkedin-hover.png)
+![image](/readme-screenshots/hover2.jpg)

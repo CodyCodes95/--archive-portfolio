@@ -340,7 +340,8 @@ object.pdf-viewer {
   /* border-radius: 50%; */
   width: 40%;
   margin: 1em;
-
+  max-width: 20rem;
+  max-height: 20rem;
 }
 
 .blog-posts a.article:nth-child(1) {
