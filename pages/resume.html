@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,7 +13,10 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
       rel="stylesheet"
     />
-    <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <!-- JAVASCRIPT FILE -->
     <script src="/script.js"></script>
     <!-- FAVICON -->
@@ -24,7 +27,7 @@
   <body>
     <!-- HERO IMAGE AND NAVBAR SECTION -->
     <header id="hero">
-      <img class="menu-toggle" src="/img/menu.svg" alt="">
+      <img class="menu-toggle" src="/img/menu.svg" alt="" />
       <nav class="navigation" data-visible="false">
         <ul id="nav" data-visible="false" class="nav">
           <li><a href="/pages/about-me.html">Home</a></li>
@@ -34,26 +37,29 @@
           <li><a href="/pages/contact.html">Contact</a></li>
         </ul>
       </nav>
-       <h1>
-            Resume
-        </h1>
+      <h1>Resume</h1>
     </header>
     <main class="resume">
       <!-- IN BROWSER PDF VIEWER -->
-        <div id="resume">
-            <object class="pdf-viewer" id="hide-mobile" data="/resources/resume.pdf" type="application/pdf">
-                <p><a href="/resources/resume.pdf">DOWNLOAD</a></p>
-            </object>
-        </div>
-        <!-- DOWNLOAD LINK AND PDF ICON -->
+      <div id="resume">
+        <object
+          class="pdf-viewer"
+          id="hide-mobile"
+          data="/resources/resume.pdf"
+          type="application/pdf"
+        >
+          <p><a href="/resources/resume.pdf">DOWNLOAD</a></p>
+        </object>
+      </div>
+      <!-- DOWNLOAD LINK AND PDF ICON -->
       <span id="download">
         <a href="/resources/resume.pdf">Download Here</a>
-        <img src="/img/pdf.png" alt="PDF Icon">
+        <img src="/img/pdf.png" alt="PDF Icon" />
       </span>
     </main>
     <!-- FOOTER TEXT IS INSERTED VIA JS -->
     <footer id="footer">
       <p></p>
     </footer>
-</body>
+  </body>
 </html>

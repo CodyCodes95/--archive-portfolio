@@ -213,11 +213,6 @@ main.portfolio {
   width: 50%;
 }
 
-.about span {
-  display: flex;
-  flex-direction: column;
-}
-
 .about {
   padding-top: 1em;
 }
@@ -447,7 +442,7 @@ object.pdf-viewer {
   transition: all 0.25s ease-in-out;
 }
 
-.button2 i{
+.button2 i {
   z-index: 1;
 }
 
