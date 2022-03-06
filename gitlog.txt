@@ -1,0 +1,353 @@
+commit c9bed22b122000a5d7143e216a8cf30ca85ffeba
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Sun Mar 6 15:42:06 2022 +1000
+
+    Moved readme images to correct folder/path
+
+commit 5f56b7d953e7af9aef31bcfefc5b85624b6f01aa
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Sun Mar 6 15:05:49 2022 +1000
+
+    Final vaildation, final commit
+
+commit 21ef6d24bc9d03f4ae0347de0b40447e86b11d19
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Sun Mar 6 15:01:23 2022 +1000
+
+    README updated. Final commit
+
+commit 2af181ad534d5ba4e97d55b89874bf8cb507fea8
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Sun Mar 6 13:41:44 2022 +1000
+
+    Readme screenshots re added. README updated
+
+commit 100086743ea74310beabe994f554ad9a7eb2118e
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Sun Mar 6 12:50:18 2022 +1000
+
+    overflow bug on about page fixed
+
+commit 7f3c32bebb2e42c2808c40516cccaf0af67a63d4
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Sun Mar 6 12:47:11 2022 +1000
+
+    overflow bug on entry page fixed
+
+commit 36181a2ed6abbbb258bdfebc0e77e2ee5a07e434
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Sun Mar 6 12:45:26 2022 +1000
+
+    overflow bug on blog page fixed
+
+commit 3a973889038168fa11cfb43b94bdaa315641db54
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Sun Mar 6 12:40:01 2022 +1000
+
+    HTML comments added
+
+commit 364c131a8f1048f672879e9e442117a04a8ad955
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Sun Mar 6 10:51:19 2022 +1000
+
+    Blog articles restyled
+
+commit a7d93e5b0f4b9b1910170d8878a9052d93153d0f
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Sun Mar 6 10:40:23 2022 +1000
+
+    Fixed z indexing on social icons.
+
+commit 38c5ed01adaec3d62d53cb2f174113c031dd6c4e
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Sun Mar 6 00:31:27 2022 +1000
+
+    Blog post placeholder images removed
+
+commit 322de8a87143e9e5675652a0e5d622dcdf210028
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Sat Mar 5 23:16:25 2022 +1000
+
+    landing page fixed
+
+commit e4838264651d50bb8c52ef5c32377845d28fe1e2
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Sat Mar 5 23:06:28 2022 +1000
+
+    troubleshooting display issues at certain screen sizes on landing page
+
+commit 03c5bff453be92d019639bdf49f5535c80d6578d
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Sat Mar 5 22:56:21 2022 +1000
+
+    fixed landing page
+
+commit 831559adbe4cd75834d41e4d21022267912bcdce
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Sat Mar 5 22:39:17 2022 +1000
+
+    refactored alot of code
+
+commit 2c31ba44f651da808ce2f18860994ddd02038efb
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Sat Mar 5 21:53:07 2022 +1000
+
+    Display issue for about me page on mobile fixed
+
+commit bed035ce3e8f8a48911fdc53da5af904f0d46d56
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Sat Mar 5 21:48:44 2022 +1000
+
+    CSS refactored
+
+commit bf61de65667620fabe6f9f908538c52ca1ed5520
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Sat Mar 5 21:10:29 2022 +1000
+
+    Added shadow to main page headings
+
+commit a2dfcda93895c57c747620c78b18868a8b479f13
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Sat Mar 5 20:49:07 2022 +1000
+
+    Fixed centering issue on about
+
+commit 588d76d852f9c8c12fabac42179081a8cab20ac7
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Sat Mar 5 17:26:30 2022 +1000
+
+    border removed from content on about page for mobile
+
+commit a926e3c08a5018716960e4672343603de09275bf
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Sat Mar 5 17:14:02 2022 +1000
+
+    fixed slight margin issues on blog page. Refactored some CSS.
+
+commit 9da65457d1e5696f260536e498f71d20ac85c6a4
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Fri Mar 4 23:28:24 2022 +1000
+
+    Current page styling added to desktop navbar
+
+commit fe7d93d63665efc5e3843e5343744587cc616ffa
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Fri Mar 4 18:30:05 2022 +1000
+
+    Updated about me and skills
+
+commit 6276ca0ce8189d6b56bfef90d7c95672d13f0453
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Fri Mar 4 16:14:16 2022 +1000
+
+    sitemap added
+
+commit 633dc46d5c57595bba2a7ea2ced825e62f57118d
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Fri Mar 4 16:09:28 2022 +1000
+
+    semantic tags added
+
+commit 43d4653572d0c70c6d730fe096faa60a0b41bcaa
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Fri Mar 4 15:40:17 2022 +1000
+
+    Social links updated
+
+commit 07eac035b7bb8d5bf60e4a93702b51642d526cf6
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Fri Mar 4 10:31:52 2022 +1000
+
+    compressed all images and deleted unused images
+
+commit b80147bab3db4b8eceb1af371dea80ce049cf553
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Fri Mar 4 10:05:45 2022 +1000
+
+    style sheet path updated
+
+commit 2cc0392a518d007993949a41ded769e2112c02e1
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Fri Mar 4 10:00:28 2022 +1000
+
+    Was wrong, now paths should be good
+
+commit 5c6ca963ef213873411012492bd05b2176a97a46
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Fri Mar 4 09:58:09 2022 +1000
+
+    all paths should now be fixed
+
+commit 2051ea6619a7120e8e0b771d77f6e13c09d78b74
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Fri Mar 4 09:53:27 2022 +1000
+
+    img folder added back to root
+
+commit 049ac66c57440de4bbd34e272b9ca82fea856f8b
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Fri Mar 4 09:50:15 2022 +1000
+
+    More path adjustments
+
+commit afdc755a1a888c26f2d66ee9e959018380ad211c
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Fri Mar 4 09:48:34 2022 +1000
+
+    Pathing update to match new paths
+
+commit 9ee132caf48af0f7ad89b7dd09d096500d64345c
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Fri Mar 4 09:42:35 2022 +1000
+
+    Changed root for repo
+
+commit 0941eacaf06802b7c078d3658171d082ab4d7463
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Thu Mar 3 23:23:19 2022 +1000
+
+    All paths rearranged for submission
+
+commit a2b35a24a2aa7b7d4f87bdb08a4876d9df1321ca
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Thu Mar 3 22:20:45 2022 +1000
+
+    All pages and CSS validated
+
+commit 5e078b6dcdfaa39f211d5465d18f643c2d0cc7d4
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Thu Mar 3 20:10:15 2022 +1000
+
+    Fixing validation errors
+
+commit 869c3f7a07d4b74df56f1c8e68fb093a8d8b31a2
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Thu Mar 3 16:24:58 2022 +1000
+
+    Navbar on desktop was poisitioned absolutely. Fixed it and positioned it properly with flexbox.
+
+commit 8729b3dac0a4fb7173ae11de5ca3479288a90823
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Thu Mar 3 16:15:31 2022 +1000
+
+    last commit before I potentially break the website
+
+commit 4453c8b49315a9b7d5a1a916fee8b7dd420ca951
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Thu Mar 3 13:54:46 2022 +1000
+
+    Updated favicon to match color scheme
+
+commit f5f358f5e183900f4a51e143360bd6618d36c50f
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Thu Mar 3 13:50:54 2022 +1000
+
+    font size changes on blog page
+
+commit e33001eaa3fb7a1bf2da2cb5b447b399e34f530a
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Thu Mar 3 13:39:46 2022 +1000
+
+    more display issues fixed
+
+commit aac600f114cb67f8845552d8025cb512985a157b
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Thu Mar 3 13:29:48 2022 +1000
+
+    mobile display bug fixed
+
+commit d25291c5a041d46847e4f551b8a809bf5c5e47a9
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Thu Mar 3 13:26:59 2022 +1000
+
+    major styling update. Color scheme changed. Layouts tweaked
+
+commit c51efded1c68fe2646d32946306e4fadaa80d696
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Wed Mar 2 16:01:14 2022 +1000
+
+    Last commit before color scheme change
+
+commit 598e48ad69e85390e01a8f60da84b8dcc4a6c92a
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Wed Mar 2 15:32:56 2022 +1000
+
+    Placeholder blog posts added
+
+commit 15db0e8343b13e7b69b389fed6d3e3c75b390871
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Wed Mar 2 13:56:17 2022 +1000
+
+    README added
+
+commit fd190ab11f98f7f6bd63f41d7e61fe0db36abe6e
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Tue Mar 1 13:54:28 2022 +1000
+
+    Socials/contact page updated with animations
+
+commit 4c4859c99eb46ee6d82230b34a22b044391e6c74
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Tue Mar 1 10:25:03 2022 +1000
+
+    PDF viewer for desktop added
+
+commit fcc48c674b9a783b99c1a21930c83660a8627e4b
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Mon Feb 28 17:31:02 2022 +1000
+
+    Test of the PDF viewer
+
+commit c8869aa4773248558b45ed1d0c94f44f9adf6705
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Mon Feb 28 16:57:43 2022 +1000
+
+    More styling, last commit before attempting to insert PDF viewer
+
+commit f8ede03d1b51ce9395b45a3e89ede72b0397fa40
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Mon Feb 28 16:11:35 2022 +1000
+
+    Added borders to photos
+
+commit dec3957aaa2539744c1dba89329b26f8c6228c75
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Mon Feb 28 15:56:19 2022 +1000
+
+    Added background image
+
+commit 6eaafb3770bfe0b6a99769d2209a3b1a9c863656
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Mon Feb 28 15:02:49 2022 +1000
+
+    More styling completed
+
+commit 39f538a1457ddcc9986fc1541dd1c9958d9a767a
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Mon Feb 28 12:07:20 2022 +1000
+
+    Last commit before adding grid to Portfolio page
+
+commit 3337b54dd65e661cbb28a7cb74d8a55ef11c29d4
+Author: Cody Partington <codythatsme@gmail.com>
+Date:   Sun Feb 27 18:23:44 2022 +1000
+
+    Organising stylesheet
+
+commit b6c20f3948981bea1c8a37454d9b26aa1a1cb93f
+Author: Cody Partington <codypartington@Codys-Macbook-Pro.local>
+Date:   Sat Feb 26 01:49:36 2022 +1000
+
+    All content complete. Styling and fine tweaking required
+
+commit c5f5b8b76926591d36f5d6100c582238d7828a5c
+Author: Cody Partington <codypartington@Codys-Macbook-Pro.local>
+Date:   Fri Feb 25 13:34:28 2022 +1000
+
+    Added all pages. Content added to about-me
+
+commit 4ac490f03c7cee56554dfb24975ce472e64dfa67
+Author: Cody Partington <codypartington@Codys-Macbook-Pro.local>
+Date:   Thu Feb 24 22:53:34 2022 +1000
+
+    initial commit
